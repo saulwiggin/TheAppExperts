@@ -8,10 +8,15 @@ public class Ex6_BasicArrays {
 	// soon as the program starts.
 	public static void main(String[] args) {
 		// Step 1: Declare an integer array variable called "nums" with 3 elements
-		
+		var nums = new int[3];
 	    // Step 2: Set the value of each of the elements
-			
+		nums[0] = 1;
+		nums[1] = 2;
+		nums[2] = 3;
 		// Step 3: Print each of the 3 values to the console.
+		System.out.print(nums[0]);
+		System.out.print(nums[1]);
+		System.out.print(nums[2]);
 	}
 
 }

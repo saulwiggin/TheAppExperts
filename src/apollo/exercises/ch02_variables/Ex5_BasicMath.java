@@ -14,24 +14,24 @@ public class Ex5_BasicMath {
 		z = 0;
 		
 		// Set z to the sum of x and y
-		
+		z = x + y;
 		System.out.println("The sum of x and y is: " + z);
 		
 		// Set z to the difference of x and y
-		
+		z = x - y;
 		System.out.println("The difference of x and y is: " + z);
 		
 		// Set z to the product of x and y (multiply x by y)
-		
+		z = x * y;
 		System.out.println("The product of x and y is: " + z);
 		
 		// Set z to the quotient of x and y (divide x by y)
-		
+		z = x / y;
 		System.out.println("The quotient of x and y is: " + z);
 		
 		// Set z to the remainder of x divided by y
 		// Hint remainder is found using the mod operator (%) i.e 6 % 3 is 0
-		
+		z = z % y;
 		System.out.println("The remainder of x divided by y is: " + z);
 		
 		
@@ -40,12 +40,12 @@ public class Ex5_BasicMath {
 		double c = 0;
 		
 		// Set c to the quotient of a and b (divide a by b)
-		
+		c = a / b;
 		System.out.println("The quotient of a and b is: " + c);
 		
 		
 		// Set z equal to (x * 1.0) / y
-		
+		z = (int) ((x * 1.0) / y);
 		System.out.println("The result of x * 1.0 / y is: " + z);
 	}
 

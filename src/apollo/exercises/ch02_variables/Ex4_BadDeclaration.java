@@ -18,25 +18,24 @@ public class Ex4_BadDeclaration {
 		
 		// Start by uncommenting and fixing all the lines below
 		int x;
-		// int y
+		int y;
 		int a, b, c;
 		int d = 3;
 		
 		x = 3;
-		// y = x * 4
+		y = x * 4;
 		a = 10;
 		b = a;
 		c = a + b;
 		x = x + d;
 		
 		int e;
-		// int x;
-		
+
 		e = 4;
 		x = 4;
 		
 		System.out.println(x);
-		// System.out.println(y);
+		System.out.println(y);
 		System.out.println(a);
 		System.out.println(b);
 	}

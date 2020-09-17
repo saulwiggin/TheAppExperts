@@ -1,7 +1,7 @@
 package apollo.exercises.ch02_variables;
 
 // This is a program that compliments someone's age.
-public class Ex2_AgeComplimentor {
+public class Ex2 {
 
 	// This is the main method that is executed as
 	// soon as the program starts.
@@ -20,6 +20,10 @@ public class Ex2_AgeComplimentor {
 		//   40?  You don't look a day over 35!
 		
 		// Bonus:  Try setting age in the same line that you declare it.
+		var age = 32;
+		var complementaryAge = age - 5;
+		System.out.print("$age? You don't look a day over $complementaryAge");
+
 	}
 
 }

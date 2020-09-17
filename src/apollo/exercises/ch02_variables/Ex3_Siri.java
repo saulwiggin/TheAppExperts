@@ -27,7 +27,16 @@ public class Ex3_Siri {
 		
 		// Hint: You can "cast" a decimal to a integer to truncate the extra decimal places
 		//      (int) (someDecimalVal * 100)
-		
+		String name;
+		int temp;
+		Double chanceOfRain;
+
+		name = "Saul";
+		temp = 65;
+		chanceOfRain = 0.45;
+
+		String string = String.format("Hello ,%s, today's high is %i degrees, with a $d chance of rain", name, temp, chanceOfRain);
+		System.out.println(string);
 	}
 
 }

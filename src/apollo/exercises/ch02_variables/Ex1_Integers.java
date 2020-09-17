@@ -15,7 +15,8 @@ public class Ex1_Integers {
 		
 		// Bonus: Try declaring and assigning the "count" variable on the same line instead
 		// i.e: String name = "Bob";
-		
+		int count = 3;
+		System.out.print(count);
 	}
 }
 
