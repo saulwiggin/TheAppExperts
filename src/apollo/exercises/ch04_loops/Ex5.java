@@ -1,18 +1,31 @@
 package apollo.exercises.ch04_loops;
 
-public class Ex5_ShiftLeft {
+public class Ex5 {
 
 	// This is the main method that is executed as
 	// soon as the program starts.	
 	public static void main(String[] args) {
 	  // Call shiftLeft and print out the result with a few different arrays.
+		shiftLeft(args);
 	}
 	
 	// Create a method called shiftLeft
     // Return an array that is "left shifted" by one -- 
 	// so {6, 2, 5, 3} returns {2, 5, 3, 6}. Y
 	// You may modify and return the given array, or return a new array. 
-	
+	public static void shiftLeft(String[] args){
+		byte[] bytesArray;
+		// create byte array
+		for(int i = 0; i < args.length; i++){
+			byte[] b = args[0].getBytes();
+
+		}
+
+		// leftwise operator to shift bytes to the left
+
+		// print result
+
+	}
 	// int a = {6, 2, 5, 3};
 	// shiftLeft(a); // => {2, 5, 3, 6}
 	// int b = {1, 2};
